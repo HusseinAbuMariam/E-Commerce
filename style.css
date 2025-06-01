@@ -364,3 +364,133 @@ ul{
 
 
 
+/* about page */
+/* section 1 */
+.sec-about .hid{
+  text-align: center;
+  padding: 10%;
+  background: linear-gradient(to right, #5d728a, #1c2c3b); /* Two colors */
+  font-size:larger;
+  font-weight: bolder;
+  color: #a9bdd5;
+}
+ #about {
+  min-height: 100vh;
+  width: 100vw;              
+  height: 100vh;             
+  padding: 0px 20px;           
+  box-sizing: border-box;   
+  display: flex;
+  align-items: center;
+}
+ #about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+ #about.col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+    font-size: 20px;
+    color: #ffe082;       
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+#about img {
+    max-width: 500px;
+    max-height: 700px;  
+    height: auto;  
+    margin-right: 30px;      
+}
+#span1 h3 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #afbbc9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  letter-spacing: 1.5px;
+  text-shadow: 2px 2px #3e3d3b;
+  text-align: left;
+  white-space: nowrap; /* Prevents line breaks */
+  text-overflow: ellipsis; 
+  margin-left: 250px;
+}
+#span1 p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #5d728a;
+  line-height: 1.5;                   
+  font-family: 'Helvetica Neue', sans-serif;
+  text-align: left;
+  margin-bottom: 30px;
+  white-space: normal;                 /* Allows line breaks */
+  width: 600px;                   
+  margin-left: 250px;
+}
+
+/* contact section */
+
+.row {
+display: flex;
+flex-wrap: wrap;
+align-items: flex-start;
+justify-content: space-between;
+}
+
+.col-2, .map {
+flex: 1;
+min-width: 300px;
+padding: 20px;
+}
+
+/* Optional: put map "behind" if you mean reverse order */
+.reverse .col-2 {
+order: 2;
+}
+.reverse .map {
+order: 1;
+}
+
+/* Optional: Make the map full width on smaller screens */
+@media (max-width: 768px) {
+.col-2, .map {
+  flex: 100%;
+}
+}
+.sec2-contact h2 {
+  font-size: 16px;
+  font-weight: bolder;
+  color: #afbbc9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  letter-spacing: 1.5px;
+  text-shadow: 1px 1px #3e3d3b;
+  text-align: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-left: 0px;
+}
+.sec2-contact h5 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #5d728a;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  letter-spacing: 1.5px;
+  text-shadow: 1px 1px #1c2c3b;
+  text-align: left;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-left: 0px;
+}
+.sec2-contact p{
+  color: rgb(168, 167, 167);
+  font-size: 15px;
+  font-weight: bolder;
+}
