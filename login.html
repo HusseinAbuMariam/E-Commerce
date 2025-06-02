@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="imges/jayden-sun-gM9TPD4k_0g-unsplash-removebg-preview.png" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" />
+    <!-- title -->
+    <title>E-commerse</title>
+    <!-- css file -->
+    <link rel="stylesheet" href="log.css">
+     <!-- BootStrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    // Initialize EmailJS with your Public Key
+    (function(){
+      emailjs.init("81hPkb4BFAhtDXcP_"); // <-- Replace this
+    })();
+  </script>
+</head>
+<body>
+   <!-- navbar section -->
+        <nav class="nav-sec">
+            <img src="imges/jayden-sun-gM9TPD4k_0g-unsplash-removebg-preview.png" alt="logo" >
+            <div class="nav-link">
+                <a href="index.html">Home</a>
+                <a href="product.html">product</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="login.html">login</a>
+            </div>
+        </nav>    
+    <!-- section 1 -->
+    <div class="login-page">
+        <div class="form">
+            <form class="register-form" id="form">
+                <input type="text"  id="username" placeholder="Username">
+                <input type="email"  id="email" placeholder="Email">
+                <input type="password" id="password" placeholder="Password">
+                <button type="submit" onclick="sendmail(event)">Create</button>
+                <p class="message">Already Registered? <a href="#login">Login</a></p>
+            </form>
+            <form class="login-form" id="log-form" >
+                <input type="text"  id="uselog" placeholder="Username">
+                <input type="password"  id="passlog" placeholder="Password">
+                <button type="submit"onclick="sendmail(event)">Login</button>
+                <p class="message" >Not Registered? <a href="#register">Register</a></p>
+            </form>
+        </div>
+    </div>
+
+  <!-- footer section -->
+        <footer class="footsec">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="imges/googleplay store.png" alt="Android">
+                        <img src="imges/appleStore.png" alt="ios">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="imges/jayden-sun-gM9TPD4k_0g-unsplash-removebg-preview.png" alt="logo">
+                    <p>Our Purpose Is To Sustainably Make the pleasure and Benefits of Sports Accessible to the Many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright ">Copyright 2025-Easy Tutorials</p>
+        </div>
+        </footer>
+
+<!-- js file -->
+    <script src="log.js"></script>
+<!-- BootStrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>

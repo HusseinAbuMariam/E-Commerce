@@ -15,3 +15,11 @@ buyBtn2.addEventListener("click",function(){
 buyBtn3.addEventListener("click",function(){
     window.location.href="product.html"
 })
+
+
+
+window.addEventListener("load", function () {
+    setTimeout(() => {
+      document.body.classList.add("loaded");
+    }, 1000); 
+  });

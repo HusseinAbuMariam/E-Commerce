@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+   background: rgb(199, 199, 199);
+}
+
+/* navbar section */
+.nav-sec{
+    color: #e0e0e0;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: 1px solid #5d728a; 
+    margin: 0px;
+    text-decoration: none;
+    background-color: #5d728a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+}
+.nav-link a{
+    margin-left: 20px;
+    color: #e0e0e0;
+    text-decoration: none;
+    padding: 20px 20px;
+    transition: #8d6e63 0.3s ease;
+}
+.nav-sec a:hover{
+    color: #ffe082; 
+    
+}
+.nav-sec img{
+    width: 100px;
+}
+
+
+/* log in page */
+.login-page{
+  width: 360px;
+  padding: 10% 0 0;
+  margin: auto;
+}
+.form{
+  position: relative;
+  z-index: 1;
+  background: linear-gradient(to right, #5d728a, #1c2c3b);
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+.form input{
+  font-family: "Roboto","sans-serif";
+  outline: 1;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding:15px;
+  box-sizing: border-box;
+  font-size:14px;
+}
+.form button{
+  font-family: "Roboto","sans-serif";
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size:14px;
+  cursor: pointer;
+}
+.form button:hover,
+.form button:active{
+  background: #43A047;
+}
+.form .message{
+  margin:15px 0 0 ;
+  color: aliceblue;
+  font-size: 12px;
+}
+.form .message a{
+  color: #4CAF50;
+  text-decoration: none;
+}
+.form .register-form{
+  display: none;
+}
+
+
+/* section footer */
+.footsec{
+  background: #000;
+  color:#8a8a8a ;
+  font-size: 14px;
+  padding: 60px 0 20px;
+}
+.footsec p{
+  color:#8a8a8a  ;
+}
+.footsec h3{
+  color: #fff;
+  margin-bottom: 20px;
+}
+.footer-col-1,
+.footer-col-2,
+.footer-col-3,
+.footer-col-4{
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+.footer-col-1{
+  flex-basis: 30%;
+}
+.footer-col-2{
+  flex: 1;
+  text-align: center;
+}
+.footer-col-2 img{
+  width: 180px;
+  margin-bottom: 20px;
+}
+.footer-col-3,
+.footer-col-4{
+  flex-basis: 12%;
+  text-align: center;
+}
+ul{
+  list-style-type: none;
+}
+.app-logo{
+  margin-top: 20px;
+}
+.app-logo img{
+  width: 140px;
+}
+.footsec hr{
+  border: none;
+  background: #b5b5b5;
+  height: 1px;
+  margin: 20px 0;
+}
+.copyright{
+  text-align: center;
+}
